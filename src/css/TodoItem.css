@@ -1,0 +1,45 @@
+.Card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 30px 10px;
+    padding: 10px 10px;
+    border: 1px solid rgb(36, 37, 40);
+    border-radius: 20px;
+    background-color: rgb(36, 37, 40);
+    color: rgb(232, 223, 223);   
+}
+
+li {
+    list-style: none;
+}
+.Card .text-Card {
+    text-decoration: line-through;
+}
+
+.Icon {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    width: 48px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.Icon-check {
+    position: absolute;
+    left: 20px
+}
+.Icon-check--active {
+    color: cornflowerblue;
+}
+.Icon-delete {
+    position: absolute;  
+    right: 25px;
+}
+.Icon-delete:hover {
+    color: red;
+}

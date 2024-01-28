@@ -1,0 +1,14 @@
+.container-counter {
+    border: 1px solid #9b0b06;
+    border-radius: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 70px 20px;
+    background-color: #9b0b06;
+}   
+
+.container-counter .completed-counter {
+    text-align: center;
+    color: whitesmoke;
+}

@@ -1,0 +1,54 @@
+:root{
+    background-color: rgb(46, 47, 47);
+}
+
+.title{
+    background-color: rgb(62, 100, 162);
+    text-align: center;
+    margin: 0;
+    padding: 25px;
+    font-size: 30px;
+}
+.title h1 {
+    
+    color: rgb(232, 223, 223);
+}
+
+.circle1 {
+    position: absolute;
+    width: 0px;
+    height: 230px;
+    border-left: 50px solid #9b0b06;
+    border-right: 50px solid #9b0b06;
+    border-bottom: 35px solid transparent;
+    left: 15px;
+    
+}
+
+.circle2 {
+    position: absolute;
+    width: 0px;
+    height: 230px;
+    border-left: 50px solid #9b0b06;
+    border-right: 50px solid #9b0b06;
+    border-bottom: 35px solid transparent;
+    margin-left: 15px;
+    right: 15px;
+    
+}
+
+.tree1 {
+    position: absolute;
+    width: 99px;
+    top: 60px;
+    left: -50px;
+}
+
+.tree2 {
+    position: absolute;
+    width: 99px;
+    top: 60px;
+    right: -50px;
+}
+
+

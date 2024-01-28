@@ -1,0 +1,21 @@
+.container-button{
+    position: fixed;
+	bottom: 10px;
+    right: 10px;
+}
+.create:hover{
+    color: aqua;
+    text-shadow: 5px white;
+}
+.container-button .create{
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 35px;
+}
+
+button {
+    cursor: pointer;
+}
